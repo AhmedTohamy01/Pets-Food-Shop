@@ -268,7 +268,30 @@ html {
   padding-top: 5px;
 }
 
+/* ######################################### Serach Box Section  ############################################ */
 
+.search-box {
+  border: solid green;
+  height: 300px;
+  background-color: #d35266;
+  text-align: center;
+}
+
+.header-title {
+  /* border: solid red; */
+  font-family: "helvetica neue bold";
+  font-size: 65px;
+  margin-top: 40px;
+  color: white;
+}
+
+.header-p {
+  /* border: solid red; */
+  font-family: "gotham rounded light";
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+}
 
 /* ######################################### Media Query  ############################################ */
 
