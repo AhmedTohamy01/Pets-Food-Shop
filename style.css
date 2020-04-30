@@ -270,7 +270,7 @@ html {
 
 /* ######################################### Serach Box Section  ############################################ */
 
-.search-box {
+.search-box-part {
   border: solid green;
   height: 300px;
   background-color: #d35266;
@@ -291,6 +291,36 @@ html {
   font-size: 25px;
   color: white;
   margin-top: 10px;
+}
+
+.search-box {
+  margin-top: 50px;
+}
+
+.pet-type {
+  height: 50px;
+  color: #888888;
+  font-family: "gotham rounded light";
+}
+
+.product,
+.brand {
+  height: 45px;
+  color: #888888;
+  width: 300px;
+  font-family: "gotham rounded light";
+
+}
+
+.search-button {
+  height: 53px;
+  background-color: #383838;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "gotham rounded light";
+  width: 100px;
+  margin-left: 10px;
 }
 
 /* ######################################### Media Query  ############################################ */
@@ -323,6 +353,13 @@ html {
   .purchase-list {
     margin-right: 40px;
 }
+
+.product,
+.brand {
+  width: 200px;
+  font-size: 10px;
+}
+
 }
 
 
@@ -334,7 +371,11 @@ html {
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 767px) {
+  .search-box-part {
+    display: none
+  }
+
   .ads-button {
     display: none;
   }
@@ -342,6 +383,7 @@ html {
   .purchase-list {
     margin-right: initial;
   }
+
 }
 
 @media screen and (max-width: 620px) {

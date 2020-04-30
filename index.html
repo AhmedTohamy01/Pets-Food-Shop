@@ -29,18 +29,25 @@
                 </div>
             </nav>
 
-            <section class="search-box">
+            <section class="search-box-part">
                 <header class="header">
                     <h2 class="header-title">PETTY</h2>
                     <p class="header-p">Your One-Stop-Shop For All Pets Supplies</p>
                 </header>
 
-                <div class="selection-fields">
+                <div class="search-box">
                     <select class="pet-type" name="pets" id="pets">
-                        <option value="type">Pet Type</option>
-                        <option value="cat">Cat</option>
-                        <option value="dog">Dog</option>
+                        <option class="op" value="type" selected>Choose pet type</option>
+                        <option class="op" value="cat">Cat</option>
+                        <option class="op" value="dog">Dog</option>
                     </select>
+
+                    <input class="product" type="text" name="product" placeholder="What do you search for? (Ex: Cat food)">
+
+                    <input class="brand" type="text" name="product" placeholder="What is your favorite brand? (Ex: Delsi)">
+
+                    <button class="search-button">Search</button>
+
 
                 </div>
 
