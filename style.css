@@ -199,6 +199,8 @@ html {
 }
 
 .shop-name {
+  /* border: solid green; */
+
   font-family: "helvetica neue bold";
   color: white;
   padding-top: 16px;
@@ -251,7 +253,11 @@ html {
   color: white;
   margin-top: 7px;
   font-family: "gotham bold";
-  
+}
+
+.ads-button a {
+  text-decoration: white;
+  color: white;
 }
 
 .profile-part {
@@ -326,10 +332,15 @@ html {
   margin-left: 10px;
 }
 
+.search-button a {
+  text-decoration: none;
+  color: white;
+}
+
 /* ######################################### Ads Section  ############################################ */
 
 .ads-section {
-    border: solid red;
+    /* border: solid red; */
 
   padding-top: 30px;
   padding-bottom: 30px;
@@ -385,13 +396,7 @@ html {
   margin-top: 20px;
 }
 
-.img-arrow1 {
-  /* border: solid red; */
-  display: inline-block;
-  border: 1px solid #888888;
-  padding: 10px;
-}
-
+.img-arrow1,
 .img-arrow2 {
   /* border: solid red; */
   display: inline-block;
@@ -399,11 +404,7 @@ html {
   padding: 10px;
 }
 
-.img-arrow1 .fa-chevron-left {
-  font-size: 25px;
-  color: #d35266
-}
-
+.img-arrow1 .fa-chevron-left,
 .img-arrow2 .fa-chevron-right {
   font-size: 25px;
   color: #d35266
@@ -513,6 +514,228 @@ html {
   color: #d35266
 }
 
+/* ######################################### Cat\Dog Food Section  ############################################ */
+
+.products-area {
+      /* border: solid red; */
+
+  background-color: #888888;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.cat-food {
+  /* border: solid green; */
+  margin-bottom: 30px;
+}
+
+.dog-food {
+  padding-bottom: 60px;
+
+}
+
+.cat-food-header {
+    /* border: solid red; */
+    border-bottom: 1px solid #383838;
+
+}
+
+.cat-food-title {
+  /* border: solid yellow; */
+  font-family: "gotham rounded light";
+  color: #383838;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.view-all-link {
+  /* border: solid yellow; */
+
+  font-family: "gotham rounded light";
+  text-decoration: none;
+  color: #d35266;
+  float: right;
+  padding-top: 30px;
+}
+
+.img-arrow3 .fa-chevron-left,
+.img-arrow4 .fa-chevron-right {
+  /* border: solid yellow; */
+
+  font-size: 30px;
+  color: #383838;
+  padding-top: 160px;
+}
+
+.cat-food-flex {
+  /* border: solid yellow; */
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  
+}
+
+.product-card {
+  /* border: solid yellow; */
+
+  border: 1px solid #888888;
+  background-color: white;
+  flex-basis: 22%;
+  height: auto;
+}
+
+.product-img {
+  /* border: solid red; */
+  text-align: center;
+}
+
+.product-img img {
+  /* border: solid green; */
+  width: 100%;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-name {
+  font-family: "gotham rounded light";
+  color: #383838;
+  font-size: 15px;
+}
+
+.product-stock {
+  /* border: solid red; */
+
+  font-family: "gotham rounded light";
+  color: #383838;
+  margin-top: 7px;
+  font-size: 15px;
+
+}
+
+.av {
+  color: #888888;
+}
+
+.price-area {
+  margin-top: 20px;
+}
+
+.plus-icon {
+  /* border: solid red; */
+  display: inline-block;
+  border: 1px solid #888888;
+  padding: 10px;
+}
+
+.plus-icon .fa-plus {
+  font-size: 20px;
+  color: #888888;
+}
+
+.price2 {
+  /* border: solid red; */
+  display: inline-block;
+
+  font-family: "helvetica neue medium";
+  color: #d35266;
+  font-size: 20px;
+  float: right;
+  padding-top: 9px;
+}
+
+/* ######################################### Footer Section  ############################################ */
+
+.footer {
+  border: solid yellow;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 2%;
+  padding-left: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+
+  height: 500px;
+}
+
+.about {
+  /* border: solid green; */
+  /* text-align: center; */
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.categories {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.footer-logo-section {
+  text-align: center;
+}
+
+.logo-footer {
+  /* border: solid red; */
+  display: inline-block;
+}
+
+.logo-footer img {
+  width: 40px;
+  /* border: solid red; */
+}
+
+.shop-name-footer {
+  /* border: solid red; */
+
+  color: #888888;
+  display: inline-block;
+  font-family: "helvetica neue bold";
+  margin-bottom: 20px;
+}
+
+.about-p {
+  /* border: solid red; */
+  font-family: "gotham rounded light";
+  color: #888888;
+  font-size: 14px;
+}
+
+.categ-title {
+    /* border: solid red; */
+
+  font-family: "gotham rounded light";
+  color: #d35266;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d35266;
+}
+
+.categ-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categ-links1,
+.categ-links2 {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  }
+
+.categ-links1 a,
+.categ-links2 a {
+  color: #888888;
+  margin-bottom: 5px;
+}
+
+.categ-links2 {
+  margin-right: 20px;
+}
+
 /* ######################################### Media Query  ############################################ */
 
 @media screen and (max-width: 1200px) {
@@ -561,6 +784,47 @@ html {
   flex-basis: 400px;
 }
 
+.products-area {
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.product-info {
+  padding: 7px;
+}
+
+.product-name {
+  font-size: 13px;
+}
+
+.product-stock {
+
+  margin-top: 4px;
+  font-size: 13px;
+
+}
+
+.price-area {
+  margin-top: 15px;
+}
+
+.plus-icon {
+  padding: 5px;
+}
+
+.plus-icon .fa-plus {
+  font-size: 15px;
+}
+
+.price2 {
+  font-size: 15px;
+}
+
+.img-arrow3 .fa-chevron-left,
+.img-arrow4 .fa-chevron-right {
+  padding-top: 110px;
+}
 
 }
 
@@ -675,6 +939,34 @@ html {
    display: none;
  }
   
+ .view-all-link,
+ .img-arrow3 .fa-chevron-left,
+ .img-arrow4 .fa-chevron-right {
+  display: none;
+}
+
+.cat-food-flex {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex-basis: 43%;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+.products-area {
+padding-left: initial;
+padding-right: initial;
+
+}
+
+.cat-food-title {
+  padding-left: 15px;
+}
 
 }
 
