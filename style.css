@@ -242,11 +242,16 @@ html {
   color: white;
   margin-top: 7px;
   font-family: "gotham bold", arial, sans-serif;
-}
+  width: 110px;
+  text-align: center;
+  height: 30px;
+  padding-top: 10px;
+  }
 
 .ads-button a {
   text-decoration: white;
   color: white;
+  font-size: 14px;
 }
 
 .profile-part {
