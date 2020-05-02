@@ -352,13 +352,16 @@ html {
 .search-results-area {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, auto);
   background-color: #888888;
   padding-left: 3%;
-  padding-right: 3%;
+  padding-right: 5%;
 }
 
 .sidebar {
   grid-column: 1/2;
+  grid-row: 1/-1;
+  padding-right: 20px;
 }
 
 .row-selection {
@@ -391,7 +394,24 @@ font-family: "gotham rounded light";
 
 .search-results {
   grid-column: 2/6;
+    /* border: solid yellow; */
+
 }
+
+.search-results-title {
+  font-family: "gotham rounded light";
+  border-right: 1px solid #383838;
+  border-left: 1px solid #383838;
+  border-bottom: 1px solid #383838;
+
+  padding: 20px;
+}
+
+.search-results-title span {
+  font-weight: bolder;
+}
+
+
 /* ######################################### Footer Section  ############################################ */
 
 .footer {
