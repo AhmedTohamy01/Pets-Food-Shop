@@ -169,7 +169,6 @@ html {
 /* ######################################### Navbar Section ############################################ */
 
 .navbar {
-  /* border: solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 10%;
@@ -465,7 +464,7 @@ html {
   margin-top: 20px;
   border-radius: 5px;
   height: 50px;
-  width: 350px;
+  width: 300px;
   color: white;
 }
 
