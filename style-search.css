@@ -347,7 +347,51 @@ html {
   color: white;
 }
 
+/* ######################################### Serach Results Section  ############################################ */
 
+.search-results-area {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #888888;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.sidebar {
+  grid-column: 1/2;
+}
+
+.row-selection {
+padding-top: 15px;
+padding-bottom: 15px;
+font-family: "gotham rounded light";
+
+}
+
+.column-selection-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #383838;
+  margin-bottom: 10px;
+  font-family: "gotham bold";
+}
+
+.column-selection input {
+  margin-bottom: 15px;
+}
+
+.column-selection label {
+  font-family: "gotham rounded light";
+}
+
+.custom-input {
+  /* border: solid red; */
+  width: 50px;
+}
+
+.search-results {
+  grid-column: 2/6;
+}
 /* ######################################### Footer Section  ############################################ */
 
 .footer {
@@ -548,11 +592,7 @@ html {
 /* ######################################### Media Query  ############################################ */
 
 @media screen and (max-width: 1200px) {
-  .ads-section {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
+ 
   .word,
   .box {
     display: none;
@@ -602,7 +642,7 @@ html {
   font-size: 10px;
 }
 
-.ad-info {
+/* .ad-info {
   flex-basis: 400px;
 }
 
@@ -646,14 +686,14 @@ html {
 .img-arrow3 .fa-chevron-left,
 .img-arrow4 .fa-chevron-right {
   padding-top: 110px;
-}
+} */
 
 }
 
 
 @media screen and (max-width: 975px) {
 
-  .ads-section {
+  /* .ads-section {
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -697,7 +737,6 @@ html {
 }
 
 .price {
-  /* border: solid yellow; */
   font-size: 12px;
   padding-top: 16px;
 }
@@ -714,19 +753,16 @@ html {
 
 .purcahse-details a {
   font-size: 12px;
-}
+} */
 
 
 
 }
 
 @media screen and (max-width: 900px) {
-  .ad-image {
-    flex-basis: 200px;
-  }
 
-  .ad-title {
-    padding-top: initial;
+  .custom-input {
+    width: 30px;
   }
 }
 
@@ -737,9 +773,9 @@ html {
   
   }
 
-  .ad-image {
+  /* .ad-image {
     flex-basis: 175px;
-  }
+  } */
 
   .copyright {
     font-size: 13px;
@@ -760,7 +796,7 @@ html {
     margin-right: initial;
   }
 
- .ads-section {
+ /* .ads-section {
    display: none;
  }
   
@@ -791,7 +827,7 @@ padding-right: initial;
 
 .cat-food-title {
   padding-left: 15px;
-}
+} */
 
 .about {
   display: none;
@@ -811,6 +847,10 @@ padding-right: initial;
 
 .social {
   grid-column: 1/-1;
+}
+
+.sidebar {
+  display: none;
 }
 
 }
