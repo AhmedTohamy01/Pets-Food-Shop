@@ -163,7 +163,6 @@ html {
   min-width: 375px;
   max-width: 1400px;
   margin: auto;
-
 }
 
 /* ######################################### Navbar Section ############################################ */
@@ -183,24 +182,18 @@ html {
   justify-content: flex-start;
 }
 
-
 .logo img {
   width: 40px;
-  /* border: solid red; */
 }
 
 .logo {
-  font-family: "helvetica neue bold";
+  font-family: "helvetica neue bold", arial, sans-serif;
   color: white;
   padding-top: 10px;
-  /* border: solid green; */
-
 }
 
 .shop-name {
-  /* border: solid green; */
-
-  font-family: "helvetica neue bold";
+  font-family: "helvetica neue bold", arial, sans-serif;
   color: white;
   padding-top: 16px;
   margin-right: 20px;
@@ -219,11 +212,9 @@ html {
   padding-top: 15px;
 }
 
-
-.home ,
+.home,
 .categories,
 .purchase-list {
-  /* border: solid yellow; */
   margin-right: 20px;
   padding-top: 16px;
 }
@@ -231,7 +222,7 @@ html {
 .home a {
   text-decoration: none;
   color: #d35266;
-  font-family: "helvetica neue light";
+  font-family: "helvetica neue light", arial, sans-serif;
   font-size: 12px;
 }
 
@@ -239,9 +230,8 @@ html {
 .purchase-list a {
   text-decoration: none;
   color: gray;
-  font-family: "helvetica neue light";
+  font-family: "helvetica neue light", arial, sans-serif;
   font-size: 12px;
-
 }
 
 .ads-button {
@@ -251,7 +241,7 @@ html {
   border-radius: 5px;
   color: white;
   margin-top: 7px;
-  font-family: "gotham bold";
+  font-family: "gotham bold", arial, sans-serif;
 }
 
 .ads-button a {
@@ -266,7 +256,7 @@ html {
 }
 
 .user-name {
-  font-family: "gotham bold";
+  font-family: "gotham bold", arial, sans-serif;
   color: white;
   padding-top: 20px;
 }
@@ -279,23 +269,20 @@ html {
 /* ######################################### Serach Box Section  ############################################ */
 
 .search-box-part {
-  /* border: solid green; */
   height: 300px;
   background-color: #d35266;
   text-align: center;
 }
 
 .header-title {
-  /* border: solid red; */
-  font-family: "helvetica neue bold";
+  font-family: "helvetica neue bold", arial, sans-serif;
   font-size: 65px;
   padding-top: 60px;
   color: white;
 }
 
 .header-p {
-  /* border: solid red; */
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   font-size: 25px;
   color: white;
   margin-top: 10px;
@@ -307,17 +294,16 @@ html {
 
 .pet-type {
   height: 50px;
-  color: #888888;
-  font-family: "gotham rounded light";
+  color: #888;
+  font-family: "gotham rounded light", arial, sans-serif;
 }
 
 .product,
 .brand {
   height: 45px;
-  color: #888888;
+  color: #888;
   width: 300px;
-  font-family: "gotham rounded light";
-
+  font-family: "gotham rounded light", arial, sans-serif;
 }
 
 .search-button {
@@ -326,7 +312,7 @@ html {
   border: none;
   border-radius: 5px;
   color: white;
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   width: 100px;
   margin-left: 10px;
 }
@@ -339,117 +325,94 @@ html {
 /* ######################################### Ads Section  ############################################ */
 
 .ads-section {
-    /* border: solid red; */
-
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10%;
   padding-right: 10%;
-
 }
+
 .ads-section-title {
-  font-family: "gotham rounded light";
-  color: #888888;
+  font-family: "gotham rounded light", arial, sans-serif;
+  color: #888;
   margin-bottom: 20px;
   margin-left: 10%;
 }
 
 .ads-flex {
-
-  /* border: solid green; */
   display: flex;
   justify-content: space-between;
 }
 
 .circle1 {
-  border: 1px solid #888888;
+  border: 1px solid #888;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   text-align: center;
   margin-top: 150px;
-  /* margin-right: 30px; */
 }
 
 .circle1 .fa-chevron-left {
   font-size: 25px;
   margin-top: 11px;
-  color: #d35266
+  color: #d35266;
 }
 
 .ad-image {
-  /* border: solid yellow; */
   flex-basis: 300px;
 }
 
 .ad-image img {
-  /* border: solid red; */
   width: 100%;
-
 }
 
 .ad-image-arrows {
   float: right;
-      /* border: solid red; */
   margin-right: 25px;
   margin-top: 20px;
 }
 
 .img-arrow1,
 .img-arrow2 {
-  /* border: solid red; */
   display: inline-block;
-  border: 1px solid #888888;
+  border: 1px solid #888;
   padding: 10px;
 }
 
 .img-arrow1 .fa-chevron-left,
 .img-arrow2 .fa-chevron-right {
   font-size: 25px;
-  color: #d35266
+  color: #d35266;
 }
 
 .ad-info {
-  /* border: solid yellow; */
   flex-basis: 500px;
-
 }
 
 .ad-title {
-      /* border: solid red; */
-
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #d35266;
   font-size: 22px;
   padding-top: 30px;
 }
 
 .ad-p {
-    /* border: solid red; */
-
-  font-family: "gotham rounded light";
-  color: #888888;
+  font-family: "gotham rounded light", arial, sans-serif;
+  color: #888;
   margin-top: 20px;
   line-height: 1.3;
-  
 }
 
 .seller {
-  /* border: solid red; */
-
-  font-family: "gotham rounded light";
-  color: #888888;
+  font-family: "gotham rounded light", arial, sans-serif;
+  color: #888;
   margin-top: 20px;
-
 }
 
 .stock {
-  /* border: solid red; */
-
-  font-family: "gotham rounded light";
-  color: #888888;
+  font-family: "gotham rounded light", arial, sans-serif;
+  color: #888;
   margin-top: 7px;
-
 }
 
 .by {
@@ -457,7 +420,6 @@ html {
 }
 
 .buying-flex {
-    /* border: solid yellow; */
   display: flex;
   justify-content: flex-start;
   background-color: #d35266;
@@ -470,24 +432,20 @@ html {
 
 .buying-flex .fa-shopping-cart {
   color: white;
+  margin-left: 15px;
 }
 
 .price {
-  /* border: solid yellow; */
   font-size: 18px;
   padding-top: 15px;
   width: 30%;
   text-align: center;
-  font-family: "helvetica neue medium";
+  font-family: "helvetica neue medium", arial, sans-serif;
   border-right: 1px solid #383838;
 }
 
-.buying-flex .fa-shopping-cart {
-  margin-left: 15px;
-}
-
 .purcahse-details {
-  font-family: "helvetica neue light";
+  font-family: "helvetica neue light", arial, sans-serif;
   margin-left: 15px;
   margin-top: 15px;
 }
@@ -498,7 +456,7 @@ html {
 }
 
 .circle2 {
-  border: 1px solid #888888;
+  border: 1px solid #888;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -510,39 +468,32 @@ html {
 .circle2 .fa-chevron-right {
   font-size: 25px;
   margin-top: 11px;
-  color: #d35266
+  color: #d35266;
 }
 
 /* ######################################### Cat\Dog Food Section  ############################################ */
 
 .products-area {
-      /* border: solid red; */
-
-  background-color: #888888;
+  background-color: #888;
   padding-left: 2%;
   padding-right: 2%;
-
 }
 
 .cat-food {
-  /* border: solid green; */
   margin-bottom: 30px;
 }
 
 .dog-food {
   padding-bottom: 60px;
-
 }
 
 .cat-food-header {
-    /* border: solid red; */
-    border-bottom: 1px solid #383838;
-
+  border-bottom: 1px solid #383838;
 }
 
 .cat-food-title {
   /* border: solid yellow; */
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #383838;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -550,9 +501,7 @@ html {
 }
 
 .view-all-link {
-  /* border: solid yellow; */
-
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
   color: #d35266;
   float: right;
@@ -561,38 +510,30 @@ html {
 
 .img-arrow3 .fa-chevron-left,
 .img-arrow4 .fa-chevron-right {
-  /* border: solid yellow; */
-
   font-size: 30px;
   color: #383838;
   padding-top: 160px;
 }
 
 .cat-food-flex {
-  /* border: solid yellow; */
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  
 }
 
 .product-card {
-  /* border: solid yellow; */
-
-  border: 1px solid #888888;
+  border: 1px solid #888;
   background-color: white;
   flex-basis: 22%;
   height: auto;
 }
 
 .product-img {
-  /* border: solid red; */
   text-align: center;
 }
 
 .product-img img {
-  /* border: solid green; */
   width: 100%;
 }
 
@@ -601,23 +542,20 @@ html {
 }
 
 .product-name {
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #383838;
   font-size: 15px;
 }
 
 .product-stock {
-  /* border: solid red; */
-
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #383838;
   margin-top: 7px;
   font-size: 15px;
-
 }
 
 .av {
-  color: #888888;
+  color: #888;
 }
 
 .price-area {
@@ -625,22 +563,19 @@ html {
 }
 
 .plus-icon {
-  /* border: solid red; */
   display: inline-block;
-  border: 1px solid #888888;
+  border: 1px solid #888;
   padding: 10px;
 }
 
 .plus-icon .fa-plus {
   font-size: 20px;
-  color: #888888;
+  color: #888;
 }
 
 .price2 {
-  /* border: solid red; */
   display: inline-block;
-
-  font-family: "helvetica neue medium";
+  font-family: "helvetica neue medium", arial, sans-serif;
   color: #d35266;
   font-size: 20px;
   float: right;
@@ -650,7 +585,6 @@ html {
 /* ######################################### Footer Section  ############################################ */
 
 .footer {
-  /* border: solid yellow; */
   padding-top: 30px;
   padding-bottom: 30px;
   padding-right: 2%;
@@ -661,38 +595,34 @@ html {
 }
 
 .about {
-  /* border: solid green; */
   grid-column: 1/5;
   grid-row: 1/2;
   padding-left: 20px;
-  padding-right: 20px;}
+  padding-right: 20px;
+}
 
 .footer-logo-section {
   text-align: center;
 }
 
 .logo-footer {
-  /* border: solid red; */
   display: inline-block;
 }
 
 .logo-footer img {
   width: 40px;
-  /* border: solid red; */
 }
 
 .shop-name-footer {
-  /* border: solid red; */
-  color: #888888;
+  color: #888;
   display: inline-block;
-  font-family: "helvetica neue bold";
+  font-family: "helvetica neue bold", arial, sans-serif;
   margin-bottom: 20px;
 }
 
 .about-p {
-  /* border: solid red; */
-  font-family: "gotham rounded light";
-  color: #888888;
+  font-family: "gotham rounded light", arial, sans-serif;
+  color: #888;
   font-size: 14px;
 }
 
@@ -701,14 +631,11 @@ html {
   grid-row: 1/2;
   padding-left: 20px;
   padding-right: 20px;
-  /* border: solid yellow; */
   margin-bottom: 20px;
-
 }
 
 .categ-title {
-    /* border: solid red; */
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #d35266;
   padding-bottom: 5px;
   border-bottom: 2px solid #d35266;
@@ -724,13 +651,13 @@ html {
   padding-top: 5px;
   display: flex;
   flex-direction: column;
-  }
+}
 
 .categ-links1 a,
-.categ-links2 a  {
-  font-family: "gotham rounded light";
+.categ-links2 a {
+  font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
-  color: #888888;
+  color: #888;
   margin-bottom: 5px;
   font-size: 13px;
 }
@@ -744,13 +671,10 @@ html {
   grid-row: 1/2;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .nav-footer-title {
-    /* border: solid red; */
-
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #d35266;
   padding-bottom: 5px;
   border-bottom: 2px solid #d35266;
@@ -760,15 +684,14 @@ html {
   padding-top: 5px;
   display: flex;
   flex-direction: column;
-  }
+}
 
-.nav-footer-links1 a  {
-  font-family: "gotham rounded light";
+.nav-footer-links1 a {
+  font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
-  color: #888888;
+  color: #888;
   margin-bottom: 5px;
   font-size: 13px;
-
 }
 
 .word {
@@ -777,7 +700,6 @@ html {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
-  /* border: solid yellow; */
   text-align: end;
 }
 
@@ -787,13 +709,11 @@ html {
   padding-top: 20px;
   display: flex;
   flex-direction: column;
-  /* border: solid yellow; */
 }
-
 
 .question {
   display: inline-block;
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #d35266;
   font-size: 14px;
   margin-bottom: 35px;
@@ -801,37 +721,35 @@ html {
 
 .answer {
   display: inline-block;
-  border: 1px solid #888888;
+  border: 1px solid #888;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
-  font-family: "gotham rounded light";
+  font-family: "gotham rounded light", arial, sans-serif;
   color: #383838;
   border-radius: 3px;
   width: 60px;
   font-size: 12px;
   text-align: center;
   margin-bottom: 15px;
-
 }
 
 .copyright {
   grid-column: 1/9;
   grid-row: 2/2;
-  border-top: 1px solid #888888;
+  border-top: 1px solid #888;
   padding-top: 20px;
-  font-family: "gotham rounded light";
-  color: #888888;
+  font-family: "gotham rounded light", arial, sans-serif;
+  color: #888;
   font-size: 14px;
   padding-left: 20px;
-
 }
 
 .social {
   grid-column: 9/11;
   grid-row: 2/2;
-  border-top: 1px solid #888888;
+  border-top: 1px solid #888;
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
@@ -839,10 +757,9 @@ html {
 }
 
 .social .fa {
-  color: #888888;
+  color: #888;
   font-size: 20px;
 }
-
 
 /* ######################################### Media Query  ############################################ */
 
@@ -870,7 +787,6 @@ html {
   .navbar {
     padding-left: 5%;
     padding-right: 5%;
-  
   }
 }
 
@@ -878,7 +794,6 @@ html {
   .navbar {
     padding-left: 10%;
     padding-right: 10%;
-  
   }
 
   .profile-part {
@@ -889,74 +804,68 @@ html {
     grid-column: 1/-1;
   }
 
-  .home ,
+  .home,
   .categories,
   .purchase-list {
     margin-right: 40px;
+  }
+
+  .product,
+  .brand {
+    width: 200px;
+    font-size: 10px;
+  }
+
+  .ad-info {
+    flex-basis: 400px;
+  }
+
+  .products-area {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .product-info {
+    padding: 7px;
+  }
+
+  .product-name {
+    font-size: 13px;
+  }
+
+  .product-stock {
+    margin-top: 4px;
+    font-size: 13px;
+  }
+
+  .price-area {
+    margin-top: 15px;
+  }
+
+  .plus-icon {
+    padding: 5px;
+  }
+
+  .plus-icon .fa-plus {
+    font-size: 15px;
+  }
+
+  .price2 {
+    font-size: 15px;
+  }
+
+  .img-arrow3 .fa-chevron-left,
+  .img-arrow4 .fa-chevron-right {
+    padding-top: 110px;
+  }
 }
-
-.product,
-.brand {
-  width: 200px;
-  font-size: 10px;
-}
-
-.ad-info {
-  flex-basis: 400px;
-}
-
-.products-area {
-  padding-left: 2%;
-  padding-right: 2%;
-
-}
-
-.product-info {
-  padding: 7px;
-}
-
-.product-name {
-  font-size: 13px;
-}
-
-.product-stock {
-
-  margin-top: 4px;
-  font-size: 13px;
-
-}
-
-.price-area {
-  margin-top: 15px;
-}
-
-.plus-icon {
-  padding: 5px;
-}
-
-.plus-icon .fa-plus {
-  font-size: 15px;
-}
-
-.price2 {
-  font-size: 15px;
-}
-
-.img-arrow3 .fa-chevron-left,
-.img-arrow4 .fa-chevron-right {
-  padding-top: 110px;
-}
-
-}
-
 
 @media screen and (max-width: 975px) {
-
   .ads-section {
     padding-left: 2%;
     padding-right: 2%;
   }
-  
+
   .circle1,
   .circle2 {
     margin-top: 100px;
@@ -969,12 +878,12 @@ html {
   .ad-image-arrows {
     margin-top: 5px;
   }
-  
+
   .img-arrow1,
   .img-arrow2 {
     padding: 5px;
   }
-  
+
   .img-arrow1 .fa-chevron-left,
   .img-arrow2 .fa-chevron-right {
     font-size: 15px;
@@ -991,32 +900,28 @@ html {
   }
 
   .buying-flex {
-  height: 40px;  
-  width: 250px;
-}
+    height: 40px;
+    width: 250px;
+  }
 
-.price {
-  /* border: solid yellow; */
-  font-size: 12px;
-  padding-top: 16px;
-}
+  .price {
+    font-size: 12px;
+    padding-top: 16px;
+  }
 
-.buying-flex .fa-shopping-cart {
-  font-size: 15px;
-  margin-left: 15px;
-}
+  .buying-flex .fa-shopping-cart {
+    font-size: 15px;
+    margin-left: 15px;
+  }
 
-.purcahse-details {
-  margin-left: 15px;
-  margin-top: 13px;
-}
+  .purcahse-details {
+    margin-left: 15px;
+    margin-top: 13px;
+  }
 
-.purcahse-details a {
-  font-size: 12px;
-}
-
-
-
+  .purcahse-details a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -1033,7 +938,6 @@ html {
   .navbar {
     padding-left: 5%;
     padding-right: 5%;
-  
   }
 
   .ad-image {
@@ -1043,12 +947,11 @@ html {
   .copyright {
     font-size: 13px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
   .search-box-part {
-    display: none
+    display: none;
   }
 
   .ads-button {
@@ -1059,84 +962,76 @@ html {
     margin-right: initial;
   }
 
- .ads-section {
-   display: none;
- }
-  
- .view-all-link,
- .img-arrow3 .fa-chevron-left,
- .img-arrow4 .fa-chevron-right {
-  display: none;
-}
+  .ads-section {
+    display: none;
+  }
 
-.cat-food-flex {
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  .view-all-link,
+  .img-arrow3 .fa-chevron-left,
+  .img-arrow4 .fa-chevron-right {
+    display: none;
+  }
 
-.product-card {
-  flex-basis: 43%;
-  margin-bottom: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
+  .cat-food-flex {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-}
+  .product-card {
+    flex-basis: 43%;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-.products-area {
-padding-left: initial;
-padding-right: initial;
+  .products-area {
+    padding-left: initial;
+    padding-right: initial;
+  }
 
-}
+  .cat-food-title {
+    padding-left: 15px;
+  }
 
-.cat-food-title {
-  padding-left: 15px;
-}
+  .about {
+    display: none;
+  }
 
-.about {
-  display: none;
-}
+  .categ {
+    grid-column: 1/7;
+  }
 
-.categ {
-  grid-column: 1/7;
-}
+  .nav-footer {
+    grid-column: 7/11;
+  }
 
-.nav-footer {
-  grid-column: 7/11;
-}
+  .copyright {
+    display: none;
+  }
 
-.copyright {
-  display: none;
-}
-
-.social {
-  grid-column: 1/-1;
-}
-
+  .social {
+    grid-column: 1/-1;
+  }
 }
 
 @media screen and (max-width: 620px) {
-  
   .home a,
   .categories a,
-  .purchase-list a  {
+  .purchase-list a {
     font-size: 10px;
   }
-
 }
 
 @media screen and (max-width: 580px) {
-
   .navbar {
     padding-left: 2%;
     padding-right: 2%;
-  
   }
-  
+
   .home,
   .categories {
     margin-right: 10px;
   }
-
 }
 
 @media screen and (max-width: 445px) {
@@ -1144,18 +1039,18 @@ padding-right: initial;
   .fa-tags,
   .fa-shopping-cart {
     font-size: 15px;
-}
+  }
 
   .home a,
   .categories a,
-  .purchase-list a  {
+  .purchase-list a {
     font-size: 8px;
   }
 
   .shop-name {
     font-size: 13px;
   }
-  
+
   .nav-footer {
     display: none;
   }
@@ -1163,5 +1058,4 @@ padding-right: initial;
   .categ {
     grid-column: 1/-1;
   }
-
 }
