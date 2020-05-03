@@ -235,7 +235,6 @@ html {
 }
 
 .ads-button {
-  height: 40px;
   background-color: #d35266;
   border: none;
   border-radius: 5px;
@@ -246,7 +245,7 @@ html {
   text-align: center;
   height: 30px;
   padding-top: 10px;
-  }
+}
 
 .ads-button a {
   text-decoration: white;
