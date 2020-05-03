@@ -242,11 +242,16 @@ html {
   color: white;
   margin-top: 7px;
   font-family: "gotham bold", arial, sans-serif;
-}
+  width: 110px;
+  text-align: center;
+  height: 30px;
+  padding-top: 10px;
+  }
 
 .ads-button a {
   text-decoration: white;
   color: white;
+  font-size: 14px;
 }
 
 .profile-part {
@@ -304,14 +309,13 @@ html {
 
 .product,
 .brand {
-  height: 45px;
+  height: 44px;
   color: #888;
   width: 300px;
   font-family: "gotham rounded light", arial, sans-serif;
 }
 
 .search-button {
-  height: 53px;
   background-color: #383838;
   border: none;
   border-radius: 5px;
@@ -319,6 +323,7 @@ html {
   font-family: "gotham rounded light", arial, sans-serif;
   width: 100px;
   margin-left: 10px;
+  padding: 16px;
 }
 
 .search-button a {
