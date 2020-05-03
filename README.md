@@ -8,7 +8,7 @@ The is a website for Pets Supplies shop where the customers can search for the p
 
 Also the vendors can post an Ads for their related products on the website.
 
-For educational purposes this project conatins only 2 pages, home page and search results page. 
+For educational purposes this project contains only 2 pages, home page and search results page. 
 
 - No javascript effects.
 - No Back-end.
