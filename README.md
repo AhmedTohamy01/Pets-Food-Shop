@@ -25,7 +25,7 @@ For educational purposes this project contains only 2 pages, home page and searc
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/AhmedTohamy01/Pets-Food-Shop/Main-Layout-Pets-Shop/index.html)
+[Live Demo Link](https://raw.githack.com/AhmedTohamy01/Pets-Food-Shop/master/index.html)
 
 
 ## Authors
