@@ -957,7 +957,10 @@ html {
     display: none;
   }
 
-  .view-all-link,
+  .view-all-link {
+    padding-right: 20px;
+  }
+
   .img-arrow3 .fa-chevron-left,
   .img-arrow4 .fa-chevron-right {
     display: none;
