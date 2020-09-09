@@ -385,20 +385,20 @@ html {
 
 .ad-p {
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   margin-top: 20px;
   line-height: 1.3;
 }
 
 .seller {
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   margin-top: 20px;
 }
 
 .stock {
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   margin-top: 7px;
 }
 
@@ -443,7 +443,7 @@ html {
 }
 
 .circle2 {
-  border: 1px solid #888;
+  border: 1px solid #383838;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -712,7 +712,7 @@ html {
 
 .answer {
   display: inline-block;
-  border: 1px solid #888;
+  border: 1px solid #383838;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
@@ -729,7 +729,7 @@ html {
 .copyright {
   grid-column: 1/9;
   grid-row: 2/2;
-  border-top: 1px solid #888;
+  border-top: 1px solid #383838;
   padding-top: 20px;
   font-family: "gotham rounded light", arial, sans-serif;
   color: #383838;
@@ -740,7 +740,7 @@ html {
 .social {
   grid-column: 9/11;
   grid-row: 2/2;
-  border-top: 1px solid #888;
+  border-top: 1px solid #383838;
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
