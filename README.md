@@ -48,6 +48,10 @@ I have built this project using the following tools & techniques:
 - CSS.
 - CSS Grid.
 - CSS FlexBox.
+- VSCode.
+- Git.
+- Github.
+- Github Pages.
 
 
 # How To Use
