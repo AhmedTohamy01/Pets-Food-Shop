@@ -190,6 +190,7 @@ html {
   font-family: "helvetica neue bold", arial, sans-serif;
   color: white;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 .shop-name {
@@ -197,6 +198,11 @@ html {
   color: white;
   padding-top: 16px;
   margin-right: 20px;
+}
+
+.shop-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .fa-home {
