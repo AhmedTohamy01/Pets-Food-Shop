@@ -19,6 +19,7 @@
 
 ## Table of Contents
 
+- [Home Page](#home-page)
 - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
 - [How To Use](#how-to-use)
