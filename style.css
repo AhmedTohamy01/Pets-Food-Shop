@@ -581,7 +581,7 @@ html {
 
 .plus-icon .fa-plus {
   font-size: 20px;
-  color: #888;
+  color: #383838;
 }
 
 .price2 {
@@ -625,7 +625,7 @@ html {
 }
 
 .shop-name-footer {
-  color: #888;
+  color: #383838;
   display: inline-block;
   font-family: "helvetica neue bold", arial, sans-serif;
   margin-bottom: 20px;
@@ -633,7 +633,7 @@ html {
 
 .about-p {
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   font-size: 14px;
 }
 
@@ -668,7 +668,7 @@ html {
 .categ-links2 a {
   font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
-  color: #888;
+  color: #383838;
   margin-bottom: 5px;
   font-size: 13px;
 }
@@ -700,7 +700,7 @@ html {
 .nav-footer-links1 a {
   font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
-  color: #888;
+  color: #383838;
   margin-bottom: 5px;
   font-size: 13px;
 }
@@ -752,7 +752,7 @@ html {
   border-top: 1px solid #888;
   padding-top: 20px;
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   font-size: 14px;
   padding-left: 20px;
 }
@@ -768,7 +768,7 @@ html {
 }
 
 .social .fa {
-  color: #888;
+  color: #383838;
   font-size: 20px;
 }
 
