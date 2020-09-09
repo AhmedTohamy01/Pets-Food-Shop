@@ -338,20 +338,13 @@ html {
   padding-right: 10%;
 }
 
-.ads-section-title {
-  font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
-  margin-bottom: 20px;
-  margin-left: 10%;
-}
-
 .ads-flex {
   display: flex;
   justify-content: space-between;
 }
 
 .circle1 {
-  border: 1px solid #888;
+  border: 1px solid #383838;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -377,19 +370,6 @@ html {
   float: right;
   margin-right: 25px;
   margin-top: 20px;
-}
-
-.img-arrow1,
-.img-arrow2 {
-  display: inline-block;
-  border: 1px solid #888;
-  padding: 10px;
-}
-
-.img-arrow1 .fa-chevron-left,
-.img-arrow2 .fa-chevron-right {
-  font-size: 25px;
-  color: #d35266;
 }
 
 .ad-info {
