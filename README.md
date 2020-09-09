@@ -1,13 +1,13 @@
 
 <h1 align="center">
-  <img title="PETTY" src="https://github.com/AhmedTohamy01/Pets-Food-Shop/blob/master/img/cat-logo2.png" alt="Petty Logo" width="400" />
+  <img title="PETTY" src="https://github.com/AhmedTohamy01/Pets-Food-Shop/blob/master/img/cat-logo2.png" alt="Petty Logo" width="300" />
   <br>
   Fully Responsive Online Store for Pets Food Shop<br> 
   Built Using Pure HTML & CSS
 </h1>
 
 <p><font size="3">
-  The is a Fully Responsive demo website for a "Pets Food Shop" where the customers can search for the product they need by pet type, product name, and product brand. They can     also create an account on the website and order the product online. While the vendors can post Ads for their related products on the website.
+  The is a Fully Responsive demo online store for a "Pets Food Shop" where the customers can search for the product they need by pet type, product name, and product brand. They   can also create an account on the website and order the product online. While the vendors can post Ads for their related products on the website.
 
   This project contains only 2 pages. Home Page & Search Results Page, and you can access the search results page by clicking on "Search Button" .
 
