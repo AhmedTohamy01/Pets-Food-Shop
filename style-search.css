@@ -190,6 +190,7 @@ html {
   font-family: "helvetica neue bold", arial, sans-serif;
   color: white;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 .shop-name {
@@ -197,6 +198,11 @@ html {
   color: white;
   padding-top: 16px;
   margin-right: 20px;
+}
+
+.shop-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .fa-home {
@@ -323,11 +329,8 @@ html {
   width: 100px;
   margin-left: 10px;
   padding: 16px;
-}
-
-.search-button a {
   text-decoration: none;
-  color: white;
+  outline: none;
 }
 
 /* ######################################### Serach Results Area  ############################################ */
@@ -335,7 +338,7 @@ html {
 .search-results-area {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  background-color: #888;
+  background-color: #fff;
   padding-left: 3%;
   padding-right: 5%;
 }
@@ -343,6 +346,7 @@ html {
 /* ######################################### Side Bar Section  ############################################ */
 
 .sidebar {
+  margin-top: 30px;
   grid-column: 1/2;
   grid-row: 1/-1;
   padding-right: 20px;
@@ -356,9 +360,7 @@ html {
 }
 
 .column-selection-title {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #383838;
+  padding: 10px 0;
   margin-bottom: 10px;
   font-family: "gotham bold", arial, sans-serif;
   color: #383838;
@@ -381,8 +383,6 @@ html {
 
 .search-results {
   grid-column: 2/6;
-  border-right: 1px solid #383838;
-  border-left: 1px solid #383838;
   margin-bottom: 60px;
 }
 
@@ -390,6 +390,7 @@ html {
   font-family: "gotham rounded light", arial, sans-serif;
   border-bottom: 1px solid #383838;
   padding: 20px;
+  line-height: 1.2;
 }
 
 .search-results-title span {
@@ -526,7 +527,6 @@ html {
 
 .page-no {
   display: inline-block;
-  border: 1px solid #383838;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: white;
@@ -660,7 +660,7 @@ html {
 }
 
 .shop-name-footer {
-  color: #888;
+  color: #383838;
   display: inline-block;
   font-family: "helvetica neue bold", arial, sans-serif;
   margin-bottom: 20px;
@@ -668,7 +668,7 @@ html {
 
 .about-p {
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   font-size: 14px;
 }
 
@@ -703,7 +703,7 @@ html {
 .categ-links2 a {
   font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
-  color: #888;
+  color: #383838;
   margin-bottom: 5px;
   font-size: 13px;
 }
@@ -735,7 +735,7 @@ html {
 .nav-footer-links1 a {
   font-family: "gotham rounded light", arial, sans-serif;
   text-decoration: none;
-  color: #888;
+  color: #383838;
   margin-bottom: 5px;
   font-size: 13px;
 }
@@ -787,7 +787,7 @@ html {
   border-top: 1px solid #888;
   padding-top: 20px;
   font-family: "gotham rounded light", arial, sans-serif;
-  color: #888;
+  color: #383838;
   font-size: 14px;
   padding-left: 20px;
 }
@@ -803,7 +803,7 @@ html {
 }
 
 .social .fa {
-  color: #888;
+  color: #383838;
   font-size: 20px;
 }
 
