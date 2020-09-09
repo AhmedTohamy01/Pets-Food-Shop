@@ -335,7 +335,7 @@ html {
 .search-results-area {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  background-color: #888;
+  background-color: #fff;
   padding-left: 3%;
   padding-right: 5%;
 }
