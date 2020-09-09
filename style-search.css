@@ -346,12 +346,15 @@ html {
 /* ######################################### Side Bar Section  ############################################ */
 
 .sidebar {
+  margin-top: 30px;
+  /* border: solid red; */
   grid-column: 1/2;
   grid-row: 1/-1;
   padding-right: 20px;
 }
 
 .row-selection {
+
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: "gotham rounded light", arial, sans-serif;
@@ -359,9 +362,7 @@ html {
 }
 
 .column-selection-title {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #383838;
+  padding: 10px 0;
   margin-bottom: 10px;
   font-family: "gotham bold", arial, sans-serif;
   color: #383838;
@@ -384,8 +385,6 @@ html {
 
 .search-results {
   grid-column: 2/6;
-  border-right: 1px solid #383838;
-  border-left: 1px solid #383838;
   margin-bottom: 60px;
 }
 
@@ -393,6 +392,7 @@ html {
   font-family: "gotham rounded light", arial, sans-serif;
   border-bottom: 1px solid #383838;
   padding: 20px;
+  line-height: 1.2;
 }
 
 .search-results-title span {
@@ -529,7 +529,7 @@ html {
 
 .page-no {
   display: inline-block;
-  border: 1px solid #383838;
+  /* border: 1px solid #383838; */
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: white;
