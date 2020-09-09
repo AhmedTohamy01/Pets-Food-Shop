@@ -535,6 +535,7 @@ html {
   flex-basis: 22%;
   height: auto;
   padding-top: 20px;
+  border-radius: 10px;
 }
 
 .product-img {
