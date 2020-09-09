@@ -19,6 +19,9 @@
 
 ## Table of Contents
 
+- [Project Walk-Through](#project-walk-through)
+  - [Home Page](#home-page)
+  - [Search Results Page](#search-results-page)
 - [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
 - [How To Use](#how-to-use)
@@ -27,6 +30,7 @@
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
+# Project Walk-Throug
 
 # Home Page
 
@@ -34,6 +38,20 @@
 
 ![ScreenShot](/img/readme/1.jpg)
 ![ScreenShot](/img/readme/2.jpg)
+![ScreenShot](/img/readme/3.jpg)
+![ScreenShot](/img/readme/4.jpg)
+![ScreenShot](/img/readme/5.jpg)
+</div>
+
+# Search Results Page
+
+<div align="center"><a name="menu"></a>
+
+![ScreenShot](/img/readme/6.jpg)
+![ScreenShot](/img/readme/7.jpg)
+![ScreenShot](/img/readme/8.jpg)
+![ScreenShot](/img/readme/9.jpg)
+![ScreenShot](/img/readme/5.jpg)
 </div>
 
 # Live Demo
