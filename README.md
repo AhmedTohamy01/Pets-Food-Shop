@@ -1,47 +1,86 @@
-# A Website for Pets Supplies Shop.
+
+<h1 align="center">
+  <img title="PETTY" src="https://github.com/AhmedTohamy01/Pets-Food-Shop/blob/master/img/cat-logo2.png" alt="Petty Logo" width="400" />
+  <br>
+  Fully Responsive Online Store for Pets Food Shop<br> 
+  Built Using Pure HTML & CSS
+</h1>
+
+<p><font size="3">
+  The is a Fully Responsive demo website for a "Pets Food Shop" where the customers can search for the product they need by pet type, product name, and product brand. They can     also create an account on the website and order the product online. While the vendors can post Ads for their related products on the website.
+
+  This project contains only 2 pages. Home Page & Search Results Page, and you can access the search results page by clicking on "Search Button" .
+
+  There is No JavaScript or Back-end in the project. This project to show my abilities in building a fully responsive website using only Pure HTML & CSS.
+
+  <br><br> 
+  <strong><em>Take a look at the live version here:</em></strong> https://ahmedtohamy01.github.io/Pets-Food-Shop/ :octocat: :heart_eyes:
+</p>
+
+## Table of Contents
+
+- [Live Demo](#live-demo)
+- [Technology Used](#technology-used)
+- [How To Use](#how-to-use)
+- [Author](#author)
+- [Show Your Support](#show-your-support)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 
+# Home Page
 
-![screenshot](./img/screenshot.jpg)
+<div align="center"><a name="menu"></a>
 
-The is a website for Pets Supplies shop where the customers can search for the product they need by pet type, product name and product brand, and they can also create an account on the website and order online.
+![ScreenShot](/img/readme/1.jpg)
+![ScreenShot](/img/readme/2.jpg)
+</div>
 
-Also the vendors can post an Ads for their related products on the website.
+# Live Demo
 
-For educational purposes this project contains only 2 pages, home page and search results page. 
-
-- No javascript effects.
-- No Back-end.
+***Take a look at the live version here:*** https://ahmedtohamy01.github.io/Pets-Food-Shop/ :octocat: :heart_eyes: 
 
 
-## Built With
+# Technology Used
 
+I have built this project using the following tools & techniques:
 - HTML.
 - CSS.
 - CSS Grid.
-- CSS Flexbox.
-- CSS Float.
+- CSS FlexBox.
 
 
-## Live Demo
+# How To Use
 
-[Live Demo Link](https://raw.githack.com/AhmedTohamy01/Pets-Food-Shop/master/index.html)
+1) From your terminal, you should do the following:
+
+```cmd
+# Clone this repository
+git clone https://github.com/AhmedTohamy01/Pets-Food-Shop
+
+```
+
+2) Go to "Pets-Food-Shop" folder and open the index.html file.
 
 
-## Authors
+# Author
 
 👤 **Ahmed Tohamy**
+- Github: https://github.com/AhmedTohamy01
+- Linkedin: https://www.linkedin.com/in/ATohamy
+- Email: Ahmed-Tohamy@outlook.com
 
-- Github: [@githubhandle](https://github.com/AhmedTohamy01)
-- Twitter: [@twitterhandle](https://twitter.com/AhmedTohamy01)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ATohamy)
-
-
-## Show your support
+# Show Your Support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+# Acknowledgments
 
-- Hat tip to anyone who helped me to learn the technology used in building this website.
-- Thanks for the design idea by Mohamed Awad on Behance https://www.behance.net/gallery/24796463/ZATTIX. 
+Hat tip to everyone helped me to learn the techniques used in building this project.
+
+# License 
+
+MIT License.
+
+
+
