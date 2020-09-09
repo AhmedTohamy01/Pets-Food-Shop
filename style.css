@@ -534,10 +534,13 @@ html {
   background-color: white;
   flex-basis: 22%;
   height: auto;
+  padding-top: 20px;
 }
 
 .product-img {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 .product-img img {
