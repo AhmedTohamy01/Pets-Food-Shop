@@ -14,7 +14,7 @@
   There is No JavaScript or Back-end in the project. This project to show my abilities in building a fully responsive website using only Pure HTML & CSS.
 
   <br><br> 
-  <strong><em>Take a look at the live version here:</em></strong> https://ahmedtohamy01.github.io/Pets-Food-Shop/ :octocat: :heart_eyes:
+  <strong><em>Take a look at the live version here:</em></strong> https://pets-food-shop.vercel.app/ :octocat: :heart_eyes:
 </p>
 
 ## Table of Contents
